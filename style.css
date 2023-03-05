@@ -1,0 +1,145 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 10px 10px;
+    background-color: rgba(40, 37, 37, 0.967) !important;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+#navbarSupportedContent{
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    padding: 10px;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(0, 203, 84);
+    position: sticky;
+    padding: 10px;
+}
+.about{
+    padding: 8px !important;
+}
+#navbarSupportedContent a{
+    color: rgb(255, 255, 255);
+    font-weight: 550;
+    font-size: 18px;
+    padding: 10px;
+    position: sticky;
+    box-shadow: 1px 1px 0px  rgb(0, 0, 0);
+}
+#navbarSupportedContent a:hover{
+    color: rgb(249, 3, 3);
+}
+.navbar .navbar-brand:hover{
+    color: rgb(234, 255, 0);
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: rgb(255, 120, 1);
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: rgb(255, 2, 2);
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Kalam', cursive;
+    border: 2px solid rgb(248, 26, 92);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: 1px;
+    border: 1px;;
+    background: rgb(248, 26, 92);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+    float: left;
+}
+.btn0:hover{
+    background-color:rgb(200, 10, 68);
+}
+
+#product img{
+    width: 300px;
+    height: 220px
+}
+#product{
+    background:url(img/bg2.jpg);
+}
+#about img{
+    width: 420px;
+    height: 370px;
+}
+#about{
+    background:url(img/pexels-alexander-grey-5839474.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#shop img{
+    width: 300px;
+    height: 200px;
+}
+#shop{
+    background:url(img/bg1.jpg);
+}
+.main{
+    background: url(img/cakebg.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main h3{
+    float:left;
+    font-family: cursive;
+    font-size: 3rem;
+
+    font-weight: 600;
+    color: rgb(251, 117, 0);
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    float: center;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    
+}
+.btn1:hover{
+    background-color: rgb(203,10,57);
+    transition: 0.5s;
+
+}
+h1{
+    font-weight: 700;
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+-moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
